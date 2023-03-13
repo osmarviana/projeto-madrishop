@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Madri Shop</title>
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/variable.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+
+    <link
+      rel="shortcut icon"
+      href="./src/img/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/a6af6215d3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main class="main">
+      <header class="header" id="header">
+        <nav class="navbar" id="navbar">
+          <a class="logo" href="#"
+            ><img src="./src/img/images.jpg" alt="logo da loja"
+          /></a>
+          <ul class="menu-nav" id="menu-nav">
+            <li class="nav-item"><a href="#" class="nav-link">Produtos</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
+            <li class="nav-item">
+              <a href="#" class="btn-contact">Contato</a>
+            </li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </header>
+      <section class="main-section">
+        <div class="slider">
+          <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1" />
+            <input type="radio" name="radio-btn" id="radio2" />
+            <input type="radio" name="radio-btn" id="radio3" />
+            <input type="radio" name="radio-btn" id="radio4" />
+            <input type="radio" name="radio-btn" id="radio5" />
+
+            <div class="slide first">
+              <img src="./src/img/caneca-termica.png" alt="produto 1" />
+            </div>
+            <div class="slide">
+              <img src="./src/img/carregador.png" alt="produto 2" />
+            </div>
+            <div class="slide">
+              <img src="./src/img/pelicula.png" alt="produto 3" />
+            </div>
+            <div class="slide">
+              <img src="./src/img/caixinha.png" alt="produto 4" />
+            </div>
+            <div class="slide">
+              <img src="./src/img/capinha.png" alt="produto 5" />
+            </div>
+
+            <div class="navigation-auto">
+              <div class="auto-btn1"></div>
+              <div class="auto-btn2"></div>
+              <div class="auto-btn3"></div>
+              <div class="auto-btn4"></div>
+              <div class="auto-btn5"></div>
+            </div>
+          </div>
+
+          <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./src/js/menu.js"></script>
+    <script src="./src/js/slides.js"></script>
+  </body>
+</html>
